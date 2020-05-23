@@ -3,7 +3,7 @@ import re
 def bracket_timestamps(file):
     '''
     In - File name (ex. transcript.txt)
-    Out - Out file (ex. transcriptout.txt) with bracketed timestamps
+    Out - None, but creates an outfile (ex. transcriptout.txt) with bracketed timestamps
     
     Surrounds all timestamps with square brackets (ex. [1:00:15]).
     Useful for my own transcription projects that use oTranscript's automatic timestamps.
